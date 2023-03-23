@@ -3,6 +3,11 @@ import LogoPlusText from '../assets/brand-icons/LogoPlusText.svg';
 import LogoSolidBlue from '../assets/brand-icons/LogoSolidBlue.svg';
 import TextOnlyforLogo from '../assets/brand-icons/TextOnlyforLogo.svg';
 
+// import { ReactComponent as LogoPlusText } from '../assets/brand-icons/LogoPlusText.svg';
+// import { ReactComponent as LogoSolidBlue } from '../assets/brand-icons/LogoSolidBlue.svg';
+// import { ReactComponent as TextOnlyforLogo } from '../assets/brand-icons/TextOnlyforLogo.svg';
+
+
 export interface BrandIconProps {
   iconType: 'logoPlusText' | 'logoSolidBlue' | 'textOnlyforLogo';
   width?: number;
