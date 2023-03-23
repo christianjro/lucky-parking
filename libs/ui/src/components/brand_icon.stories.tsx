@@ -1,28 +1,35 @@
 import React from 'react';
 
-import { ComponentStory, ComponentMeta } from '@storybook/react';
+// import { ComponentStory, ComponentMeta } from '@storybook/react';
 
-import BrandIcon from './brand_icon';
+// import BrandIcon from './brand_icon';
 
-export default {
-    title: 'Components/BrandIcon',
-    component: BrandIcon,
-} as ComponentMeta<typeof BrandIcon>;
+// export default {
+//     title: 'Components/BrandIcon',
+//     component: BrandIcon,
+// } as ComponentMeta<typeof BrandIcon>;
 
-export const LogoPlusText: ComponentStory<typeof BrandIcon> = (args) => <BrandIcon {...args} />;
+// export const LogoPlusText: ComponentStory<typeof BrandIcon> = (args) => <BrandIcon {...args} />;
 
-LogoPlusText.args = {
-    iconType: 'logoPlusText',
-};
+// LogoPlusText.args = {
+//     iconType: 'logoPlusText',
+// };
 
-export const LogoSolidBlue: ComponentStory<typeof BrandIcon> = (args) => <BrandIcon {...args} />;
+// export const LogoSolidBlue: ComponentStory<typeof BrandIcon> = (args) => <BrandIcon {...args} />;
 
-LogoSolidBlue.args = {
-    iconType: 'logoSolidBlue',
-};
+// LogoSolidBlue.args = {
+//     iconType: 'logoSolidBlue',
+// };
 
-export const TextOnlyforLogo: ComponentStory<typeof BrandIcon> = (args) => <BrandIcon {...args} />;
+// export const TextOnlyforLogo: ComponentStory<typeof BrandIcon> = (args) => <BrandIcon {...args} />;
 
-TextOnlyforLogo.args = {
-    iconType: 'textOnlyforLogo',
-};
+// TextOnlyforLogo.args = {
+//     iconType: 'textOnlyforLogo',
+// };
+
+
+// import { storiesOf } from '@storybook/react';
+// import { LogoPlusText } from './brand_icon';
+
+// storiesOf("Icons", module)
+//     .add('LogoPlusText', () => <LogoPlusText />)
