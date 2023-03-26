@@ -33,6 +33,19 @@ const config: StorybookConfig = {
     }
 
     // add your own webpack tweaks if needed
+    if (config.module && config.module.rules) {
+      config.module.rules.push({
+        test: /\.svg$/,
+        use: [
+          {
+            loader: 'svg-react-loader',
+            options: {
+              jsx: true,
+            },
+          },
+        ],
+      });
+    }
 
     return config;
   },
