@@ -6,6 +6,7 @@ export enum ButtonSize {
   large = "large",
 }
 
+// test comment
 export enum ButtonVariant {
   primary = "primary",
   secondary = "secondary",
