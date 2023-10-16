@@ -12,6 +12,7 @@ const config: Config = {
   modulePaths: ["<rootDir>/packages/website"],
   moduleNameMapper: {
     "^@/(.*)$": ["<rootDir>/packages/website/src/$1"],
+    "\\.svg$": "<rootDir>/__mocks__/svg.js",
   },
   transform: {
     "^.+\\.(ts|tsx)?": [

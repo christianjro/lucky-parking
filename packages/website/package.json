@@ -11,5 +11,8 @@
   },
   "dependencies": {
     "@lucky-parking/ui": "workspace:*"
+  },
+  "devDependencies": {
+    "vite-plugin-svgr": "^4.1.0"
   }
 }
